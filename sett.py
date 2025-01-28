@@ -46,10 +46,22 @@
 # print(a.union(b))
 # print(a)
 # print(b)
+# a={1,2,3,4,5}
+# b={7,3,6,5}
+# print(a.intersection(b))
+# print(a)
+# print(b)
+# a.intersection_update(b)
+# print(a)
+
+
+# a={1,2,3,4,5}
+# b={7,3,6,5}
+# print(a.difference(b))
+# print(a)
+# print(b)
 a={1,2,3,4,5}
 b={7,3,6,5}
-print(a.intersection(b))
-print(a)
+print(b.symmetric_difference(a))
 print(b)
-a.intersection_update(b)
-print(a)
+

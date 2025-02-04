@@ -26,7 +26,7 @@
 # print('Hello')    
 
 #=========================================================
-# Armstring Number
+# Armstrong Number
 #=========================================================
 # n=int(input("Enter number : "))
 # x=y=n
@@ -57,8 +57,7 @@ while n>0:
     x=n%10
     rev_digit=rev_digit*10+x
     n//=10
-print(rev_digit)
 if(y==rev_digit):
-    print(f'{rev_digit} is a palindrom')    
+    print(f'{y} is a palindrom')    
 else:
-    print(f'{rev_digit} is not a palindrom')
+    print(f'{y} is not a palindrom')

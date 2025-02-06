@@ -23,3 +23,5 @@
 x=eval(input('enter value : '))
 print(x)
 print(type(x))
+for i in x:
+    print(i)

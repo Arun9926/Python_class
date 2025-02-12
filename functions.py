@@ -43,8 +43,8 @@
 def add(*args):
     sum=0
     for i in args:
-        for n in i:
-            sum=sum+n
+        for j in i:
+            sum=sum+j
         return sum
 p=eval(input('Enter any number : '))    
 x=add(p)    

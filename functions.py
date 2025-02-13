@@ -40,12 +40,25 @@
 # x=add(1,2,3,4,5)    
 # print(x)    
 
+# def add(*args):
+#     sum=0
+#     for i in args:
+#         for j in i:
+#             sum=sum+j
+#         return sum
+# p=eval(input('Enter any number : '))    
+# x=add(p)    
+# print(x)
+
+#============================================================
+# use single star(*) in argumenets to hold any type of values
+#============================================================
+
 def add(*args):
     sum=0
     for i in args:
-        for j in i:
-            sum=sum+j
-        return sum
+        sum+=i
+    return sum    
 p=eval(input('Enter any number : '))    
-x=add(p)    
+x=add(*p)    
 print(x)

@@ -54,11 +54,41 @@
 # use single star(*) in argumenets to hold any type of values
 #============================================================
 
-def add(*args):
-    sum=0
-    for i in args:
-        sum+=i
-    return sum    
-p=eval(input('Enter any number : '))    
-x=add(*p)    
-print(x)
+# def add(*args):
+#     sum=0
+#     for i in args:
+#         sum+=i
+#     return sum    
+# p=eval(input('Enter any number : '))    
+# x=add(*p)    
+# print(x)
+
+
+
+
+
+
+
+
+
+
+
+#=========================================================
+# map
+#=========================================================
+
+# def squar(x):
+#     return x**2
+# l1 = eval(input("Enter any numeric collection : "))
+# res=map(squar,l1)
+# print(list(res))
+
+
+def add(x):
+    if x%2==0:
+        return x+1
+    else:
+        return x+2
+l1 = eval(input("Enter any numeric collection : "))
+res=map(add,l1)
+print(list(res))

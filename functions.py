@@ -84,11 +84,20 @@
 # print(list(res))
 
 
-def add(x):
-    if x%2==0:
-        return x+1
-    else:
-        return x+2
+# def add(x):
+#     if x%2==0:
+#         return x+1
+#     else:
+#         return x+2
+# l1 = eval(input("Enter any numeric collection : "))
+# res=map(add,l1)
+# print(list(res))
+
+
+def add(x,y,z):
+    return x+y+z
 l1 = eval(input("Enter any numeric collection : "))
-res=map(add,l1)
+l2 = eval(input("Enter any numeric collection : "))
+l3 = eval(input("Enter any numeric collection : "))
+res=map(add,l1,l2,l3)
 print(list(res))

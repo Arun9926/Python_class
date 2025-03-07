@@ -74,20 +74,20 @@
 # obj1.home()
 
 
-class Parent:
-    def home(self):
-        print("parent class")
-class Child1(Parent):
-    def home(self):
-        # print("child1 class")
-        super().home()
-class Child2(Parent):
-    def home(self):
-        print("child2 class")
-obj = Child1()
-obj.home()
-obj1 = Child2()
-obj1.home()
+# class Parent:
+#     def home(self):
+#         print("parent class")
+# class Child1(Parent):
+#     def home(self):
+#         # print("child1 class")
+#         super().home()
+# class Child2(Parent):
+#     def home(self):
+#         print("child2 class")
+# obj = Child1()
+# obj.home()
+# obj1 = Child2()
+# obj1.home()
 
 
 #=====================================================================
